@@ -68,7 +68,10 @@
       justify-content: center;
       align-items: center ;
     }
-
+    .centered-content {
+      text-align: center;
+      margin-bottom: 20px;
+    }
     .content-section img {
       width: 100%;
       max-width: 500px;
@@ -83,7 +86,7 @@
       font-family: 'Poppins', sans-serif;
       color: #e98b39;
       margin-bottom: 12px;
-      font-size: 1.1em;
+      font-size: 1.2em;
       border-bottom: 2px solid #fcd9b3;
       padding-bottom: 6px;
     }
@@ -102,15 +105,15 @@
     }
    .event-details {
       display: flex;
-      gap: 2px;
+      gap: 10px;
       justify-content: center ;
      
     }
 
     .event-details img {
-      width: 75px;
+      width: 70px;
       height: auto;
-      margin-right: 15px;
+      margin-right: 10px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     }
@@ -195,7 +198,7 @@
         padding: 15px;
       }
       .content-section h3 {
-       font-size: 1em;
+       font-size: 1.1em;
       }
       .btn {
         padding: 12px 25px;
@@ -204,5 +207,11 @@
        .story-section img {
       
       max-width: 150px;
+      }
+      .event-details {
+        gap: 10px ;
+      }
+       .event-details img {
+      width: 40px;
       }
     }
